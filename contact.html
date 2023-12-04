@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+     <script src="scripts/contact.js" defer></script>
+    <title>Contact - Parfumerie Des Amis</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Contactez-nous</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            
+
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Formulaire de Contact</h2>
+            <form action="traitement.php" method="post">
+                
+                <fieldset>
+                    <p>
+                        <label for="in_Name">Nom :</label>
+                        <input type="text" id="in_Name" name="f_Name" />
+                    </p>
+            
+                    <p>
+                        <label for="in_Email">Email :</label>
+                        <input type="text" id="in_Email" name="f_Email" />
+                    </p>
+            
+                    <p>
+                        <label for="in_Sujet">Sujet :</label>
+                        <input type="text" id="in_Sujet" name="f_Sujet" />
+                    </p>
+            
+                    <p>
+                        <label for="in_message">Message :</label>
+                        <textarea id="in_message" name="f_message" rows="6" ></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Envoyer" name="submit">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+      
+    </main>
+    <footer>
+        <p>&copy; 2023 Parfumerie Des Amis</p>
+    </footer>
+    <script src="scripts/contact.js" defer></script>
+    
+</body>
+</html>
